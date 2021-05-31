@@ -1,0 +1,54 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo
+              img(src="/static/logo1.png", alt="logo")
+              | IDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Courses]
+            li #[a(href="/") services]
+            li #[a(href="/") Contact]
+            li #[a(href="/") more]
+
+    section#intro 
+        div Welcome to our dance academy
+        div.small Dance & Dance
+    section#mission
+      h2 Our Mission
+      div.card
+        h3 street dance
+        div.card-box 
+          div.card-img
+            img(src="/static/logo2.png", alt="image")
+          div.card-content
+            p this is the best dance academy in the country
+
+      div.card
+        h3 free style moves
+        div.card-box 
+          div.card-img
+            img(src="/static/logo3.png", alt="image")
+          div.card-content
+            p this is the best dance academy in the country
+
+      div.card
+        h3 best tutors
+        div.card-box 
+          div.card-img
+            img(src="/static/logo1.png", alt="image")
+          div.card-content
+            p this is the best dance academy in the country
+
+    section#sponsor 
+        h2 Our Sponsors
+    footer#footer 
+        |links
+    script
+      include ../static/index.js
