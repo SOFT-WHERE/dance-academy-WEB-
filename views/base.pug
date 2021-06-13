@@ -1,0 +1,23 @@
+//- layout.pug
+doctype html
+html
+  head
+    title National Dance Academy
+    block scripts
+    block style 
+
+  body
+    nav#navbar
+        ul 
+            div#logo
+              img(src="/static/logo1.png", alt="logo")
+              | NDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Courses]
+            li #[a(href="/") services]
+            li #[a(href="/") Contact]
+            li #[a(href="/") more]
+    block content
+    footer#footer 
+        | copyright © 2018-2021 NationalDanceAcademy.com | All rights reserved

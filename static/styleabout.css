@@ -1,0 +1,16 @@
+.container{
+    
+    flex-direction: column;
+    margin: auto;
+    min-height: 76vh;
+    justify-content: center;
+    background-color: darkkhaki;
+
+}
+.container h1{
+    color: darkgreen;
+    padding: 40px 235px;
+}
+.container h1 p{
+    color: cornflowerblue;
+}
